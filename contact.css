@@ -1,0 +1,144 @@
+/* CSS Styles for the Contact Page */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #874949;
+  color: #323232;
+}
+
+header {
+  background-color: #228B22;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: #333;
+}
+
+.logo img {
+  height: 40px;
+  vertical-align: middle;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  color: yellow;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact-us {
+  text-align: justify;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #323232;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #228B22;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}

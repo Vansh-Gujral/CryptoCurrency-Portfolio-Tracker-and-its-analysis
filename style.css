@@ -1,0 +1,556 @@
+
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    background-image: url(bgphoto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+  
+header {
+    background-color: #f52424;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #228B22;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: #333;
+}
+
+.logo img {
+  height: 40px;
+  vertical-align: middle;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  color: yellow;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+body{
+    background-color: #ccc;
+    }
+.hero-container {
+   
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    color: #04d9ff;
+    text-transform: uppercase;
+    
+}
+
+.hero-container h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+   
+}
+
+.hero-container p {
+  
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 40px;
+   
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+
+
+.introduction-section {
+    
+    padding: 40px 0;
+    margin-top: 40px;
+    padding: 20px;
+    
+}
+
+.introduction-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #04d9ff; 
+  
+}
+
+.introduction-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-color: #04d9ff; 
+
+}
+
+.introduction-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #04d9ff;
+}
+
+.introduction-container ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding: 0;
+    background-color: #04d9ff;
+
+}
+
+.introduction-container ul li {
+    margin-bottom: 10px;
+    background-color: #04d9ff;
+
+}
+
+#benefits {
+    padding: 40px 0;
+    margin-top: 40px;
+   
+    
+}
+
+.benefits-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #04d9ff;
+
+}
+
+.benefits-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-color: #04d9ff ;
+
+}
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #04d9ff; 
+
+}
+.benefit-item {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.benefit-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.benefit-item p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.learn-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+#market-overview {
+  background-color: #04d9ff; 
+
+    padding: 20px 0;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.market-overview-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #04d9ff;
+
+}
+
+.market-overview-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-color: #04d9ff ;
+
+}
+
+.market-overview-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    background-color: #04d9ff  ;
+
+}
+
+.market-overview-container .learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#portfolio-table {
+    
+    padding: 20px 0;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.portfolio-table-container {
+    max-width: 800px;
+    margin: 0 auto;
+   
+}
+
+.portfolio-table-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-color: #04d9ff; 
+
+}
+
+.portfolio-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    background-color: #04d9ff; 
+
+}
+
+.portfolio-table-container th {
+    font-weight: 600;
+    background-color: #f8f8f8;
+}
+
+#portfolio-table {
+    padding: 20px 0;
+    margin-top: 40px;
+   
+}
+
+.portfolio-table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #04d9ff;
+
+}
+
+.portfolio-table-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-color: #04d9ff ;
+
+}
+
+.portfolio-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    background-color: #04d9ff;
+
+}
+
+.portfolio-table-container th {
+    font-weight: 600;
+    background-color: #f8f8f8;
+}
+
+
+tr {
+    background-color: white;
+}
+
+
+tr:hover {
+    background-color: #eee;
+}
+
+.view-full-portfolio-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#login-section {
+    padding: 40px 0;
+    margin-top: 40px;
+    text-align: center;
+    color: #c2edce;
+    padding: 20px;
+    
+  
+}
+
+.login-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.login-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.login-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.sign-up-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.benefits-reminder {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.urgency-message {
+    color: #f00;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#portfolio-tracking {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px;
+    color: #39ff14;
+    
+  }
+  
+  #portfolio-tracking h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #c2edce;
+  }
+  
+  #portfolio-tracking p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #c2edce;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .tracked-crypto-portfolios h2{
+    color: #c2edce
+  }
+  .btn:hover {
+    background-color: #0069d9;
+  }
+  .tracked-crypto-portfolios-table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;  
+  }
+  
+  .tracked-crypto-portfolios-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    
+  }
+  
+  
+  .tracked-crypto-portfolios-table .positive {
+    color: green;
+  }
+  
+  .tracked-crypto-portfolios-table .negative {
+    color: #04d9ff;
+
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+  }
+  #about-crypto-portfolio {
+    padding: 20px;
+    color: #c2edce;
+    margin-bottom: 20px;
+  }
+
+  #about-crypto-portfolio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #c2edce;
+  }
+
+  #about-crypto-portfolio p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #c2edce;
+  }
+
+  #about-crypto-portfolio a.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  #about-crypto-portfolio {
+    padding: 20px;
+    color: #c2edce;
+  }
+  
+  #about-crypto-portfolio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #c2edce;
+  }
+  
+  #about-crypto-portfolio p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #c2edce;
+  }
+  
+  #about-crypto-portfolio table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+  }
+  
+  #about-crypto-portfolio th,
+  #about-crypto-portfolio td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  #about-crypto-portfolio th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  #about-crypto-portfolio ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 0;
+  }
+  
+  #about-crypto-portfolio li {
+    margin-bottom: 5px;
+  }
+  
+  #about-crypto-portfolio a.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+ 

@@ -1,0 +1,131 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dee2fc;
+ 
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #ddd;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  background-color: #228B22;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: #333;
+}
+
+.logo img {
+  height: 40px;
+  vertical-align: middle;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  color: yellow;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #323232;
+}
+h2 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #323232;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #323232;
+}
+
+input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+button {
+  background-color: #228B22;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.disclaimer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: #228B22;
+  text-decoration: none;
+}
